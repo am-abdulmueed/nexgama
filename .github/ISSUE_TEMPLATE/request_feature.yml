@@ -1,0 +1,32 @@
+name: ⭐ Feature request
+description: Suggest a feature to improve the app
+labels: [ enhancement ]
+body:
+  - type: textarea
+    id: feature-description
+    attributes:
+      label: Describe your suggested feature
+      description: How can the app be improved?
+      placeholder: |
+        Example:
+          "It should work like this..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: other-details
+    attributes:
+      label: Other details
+      placeholder: |
+        Additional details and attachments (please don't issue bugs here, create a new bug report instead).
+
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Acknowledgements
+      description: Please check the following before submitting.
+      options:
+        - label: I have searched the existing issues and feature requests, and this is a new idea (**NOT** a duplicate).
+          required: true
+        - label: I understand that features are added based on relevance and developer availability.
+          required: true
