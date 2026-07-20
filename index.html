@@ -1,0 +1,418 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NexGama</title>
+<meta name="description" content="Opening your game.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Unbounded:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    /* console boot-screen palette */
+    --bg: #0E1120;
+    --bg-glow: #171B33;
+    --panel: #161A30;
+    --panel-line: rgba(255,255,255,0.08);
+    --ink: #F3F1EA;
+    --muted: #9AA0C0;
+    --amber: #FFB84D;   /* power-on light */
+    --cyan: #6EE7DE;    /* secondary signal */
+    --danger: #FF6E6E;
+
+    --space-xs: 8px;
+    --space-sm: 12px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+
+    --radius-lg: 20px;
+    --radius-pill: 9999px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body { height: 100%; }
+
+  body {
+    background: var(--bg);
+    color: var(--muted);
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.55;
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+  }
+
+  /* ambient console glow, off-center like a CRT power light bloom */
+  body::before {
+    content: '';
+    position: fixed;
+    top: -20%; left: 50%;
+    width: 900px; height: 900px;
+    transform: translateX(-50%);
+    background: radial-gradient(circle, rgba(255,184,77,0.10) 0%, rgba(110,231,222,0.06) 35%, transparent 65%);
+    z-index: -2;
+    pointer-events: none;
+  }
+
+  /* faint scanlines for the arcade-boot feel */
+  body::after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background: repeating-linear-gradient(
+      to bottom,
+      rgba(255,255,255,0.018) 0px,
+      rgba(255,255,255,0.018) 1px,
+      transparent 1px,
+      transparent 3px
+    );
+    z-index: -1;
+    pointer-events: none;
+  }
+
+  h1, h3 { font-family: 'Unbounded', sans-serif; color: var(--ink); }
+  a { text-decoration: none; color: inherit; }
+
+  /* ---------- header ---------- */
+  .topbar {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 40;
+    display: flex; align-items: center; justify-content: space-between;
+    gap: var(--space-md);
+    padding: var(--space-sm) var(--space-lg);
+    background: rgba(14,17,32,0.72);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid var(--panel-line);
+  }
+  .topbar-brand {
+    display: flex; align-items: center; gap: 10px;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 14px; font-weight: 600;
+    color: var(--ink); letter-spacing: 0.2px;
+  }
+  .brand-dot {
+    width: 9px; height: 9px; border-radius: 50%;
+    background: var(--amber);
+    box-shadow: 0 0 10px var(--amber), 0 0 20px rgba(255,184,77,0.5);
+    flex-shrink: 0;
+  }
+  .open-app-btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px; font-weight: 700;
+    padding: 10px 18px;
+    border-radius: var(--radius-pill);
+    background: linear-gradient(135deg, var(--amber), #FF9A4D);
+    color: #1A1200;
+    border: none;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: transform 0.18s ease, box-shadow 0.18s ease;
+    box-shadow: 0 6px 20px -6px rgba(255,184,77,0.55);
+  }
+  .open-app-btn:hover { transform: translateY(-1px); box-shadow: 0 10px 24px -6px rgba(255,184,77,0.65); }
+  .open-app-btn svg { width: 15px; height: 15px; }
+
+  /* ---------- page ---------- */
+  .page-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 96px var(--space-lg) var(--space-lg);
+  }
+
+  .page { max-width: 460px; width: 100%; }
+
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--panel-line);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl) var(--space-lg) var(--space-lg);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+  }
+  /* sweeping boot-scan line across the panel */
+  .panel::before {
+    content: '';
+    position: absolute;
+    top: 0; left: -30%;
+    width: 30%; height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(110,231,222,0.08), transparent);
+    animation: sweep 3.4s ease-in-out infinite;
+    pointer-events: none;
+  }
+  @keyframes sweep {
+    0% { left: -30%; }
+    60% { left: 130%; }
+    100% { left: 130%; }
+  }
+
+  .hero-badge {
+    display: inline-flex; align-items: center; gap: var(--space-xs);
+    padding: 6px var(--space-md);
+    border-radius: var(--radius-pill);
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--panel-line);
+    font-size: 10.5px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase;
+    color: var(--cyan);
+    margin-bottom: var(--space-lg);
+  }
+
+  /* hero illustration: stylised cartridge / joystick, built from CSS+SVG, no external image */
+  .hero-art {
+    width: 132px; height: 132px;
+    margin: 0 auto var(--space-md);
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 28px;
+    background: radial-gradient(circle at 30% 25%, rgba(255,184,77,0.22), rgba(110,231,222,0.08) 55%, transparent 75%);
+    position: relative;
+  }
+  .hero-art svg { width: 74px; height: 74px; position: relative; z-index: 1; }
+  .hero-art::after {
+    content: '';
+    position: absolute; inset: 0;
+    border-radius: 28px;
+    border: 1px solid rgba(255,255,255,0.08);
+    animation: pulse-ring 2.6s ease-in-out infinite;
+  }
+  @keyframes pulse-ring {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(255,184,77,0.18); }
+    50% { box-shadow: 0 0 0 10px rgba(255,184,77,0); }
+  }
+
+  .panel h1 { font-size: 22px; font-weight: 500; margin-bottom: var(--space-sm); letter-spacing: -0.3px; }
+  .panel p { color: var(--muted); font-size: 13.5px; max-width: 340px; margin: 0 auto var(--space-md); }
+
+  /* countdown ring, replaces the old floating circle */
+  .timer {
+    width: 92px; height: 92px;
+    margin: var(--space-sm) auto var(--space-lg);
+    position: relative;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .timer svg { position: absolute; inset: 0; width: 100%; height: 100%; transform: rotate(-90deg); }
+  .timer circle {
+    fill: none;
+    stroke-width: 4;
+  }
+  .timer .track { stroke: rgba(255,255,255,0.08); }
+  .timer .progress {
+    stroke: var(--amber);
+    stroke-linecap: round;
+    stroke-dasharray: 251;
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 1s linear;
+    filter: drop-shadow(0 0 6px rgba(255,184,77,0.55));
+  }
+  .timer strong {
+    display: block;
+    font-family: 'Unbounded', sans-serif;
+    font-size: 1.8rem;
+    line-height: 1;
+    color: var(--ink);
+  }
+  .timer span {
+    display: block;
+    color: var(--muted);
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    font-weight: 600;
+    margin-top: 3px;
+  }
+
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    height: 48px;
+    width: 100%;
+    padding: 0 28px;
+    border-radius: var(--radius-pill);
+    cursor: pointer;
+    border: none;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .btn:hover { transform: translateY(-2px); }
+  .btn-primary {
+    background: var(--ink);
+    color: #0E1120;
+    box-shadow: 0 10px 26px -10px rgba(0,0,0,0.6);
+  }
+  .btn[disabled] { opacity: 0.5; cursor: not-allowed; }
+
+  .status-text { margin-top: var(--space-md); color: var(--muted); font-size: 12.5px; }
+
+  /* full-screen game stage, shown once countdown finishes */
+  .stage-frame-wrap {
+    position: fixed; inset: 0;
+    width: 100vw; height: 100vh;
+    background: #000;
+    display: none;
+    z-index: 30;
+  }
+  .stage-frame-wrap.active { display: block; }
+  .stage-frame-wrap iframe {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    border: 0;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .panel::before, .hero-art::after { animation: none; }
+  }
+
+  @media (max-width: 420px) {
+    .topbar { padding: var(--space-sm) var(--space-md); }
+    .open-app-btn span.btn-label-full { display: none; }
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar" id="topbar">
+  <div class="topbar-brand">
+    <span class="brand-dot"></span>
+    NexGama
+  </div>
+  <button class="open-app-btn" id="open-app-header" type="button">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 3v12m0 0-4-4m4 4 4-4M5 21h14a2 2 0 0 0 2-2v-5a2 2 0 0 0-2-2h-2a1 1 0 0 0-1 1v.5a1.5 1.5 0 0 1-3 0V13a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v.5a1.5 1.5 0 0 1-3 0V13a1 1 0 0 0-1-1H3a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span class="btn-label-full">Open in App</span>
+  </button>
+</header>
+
+<div class="page-wrapper" id="intro">
+  <main class="page">
+    <section class="panel">
+      <div class="hero-badge">NexGama</div>
+
+      <div class="hero-art">
+        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="4" y="22" width="56" height="26" rx="13" stroke="#FFB84D" stroke-width="2.5"/>
+          <circle cx="20" cy="35" r="2.6" fill="#6EE7DE"/>
+          <circle cx="14" cy="35" r="2.6" fill="#6EE7DE" opacity="0.5"/>
+          <circle cx="26" cy="35" r="2.6" fill="#6EE7DE" opacity="0.5"/>
+          <circle cx="20" cy="29" r="2.6" fill="#6EE7DE" opacity="0.5"/>
+          <circle cx="20" cy="41" r="2.6" fill="#6EE7DE" opacity="0.5"/>
+          <circle cx="45" cy="31" r="3.4" fill="#FFB84D"/>
+          <circle cx="53" cy="39" r="3.4" fill="#FFB84D" opacity="0.55"/>
+        </svg>
+      </div>
+
+      <h1 id="title">Loading your game</h1>
+      <p id="subcopy">Your game will open in a few seconds.</p>
+
+      <div class="timer" aria-live="polite">
+        <svg viewBox="0 0 88 88">
+          <circle class="track" cx="44" cy="44" r="40"/>
+          <circle class="progress" id="ring" cx="44" cy="44" r="40"/>
+        </svg>
+        <div>
+          <strong id="countdown">5</strong>
+          <span>seconds</span>
+        </div>
+      </div>
+
+      <button id="open-now" class="btn btn-primary" type="button">Open now</button>
+      <p class="status-text" id="status-text">Please wait…</p>
+    </section>
+  </main>
+</div>
+
+<div class="stage-frame-wrap" id="stage"></div>
+
+<script>
+  var CLID = "p_db0585d2-2da5-4641-b768-657993e9122d";
+  var slug = window.location.search.replace(/^\?/, "");
+
+  var introEl = document.getElementById("intro");
+  var stageEl = document.getElementById("stage");
+  var topbarEl = document.getElementById("topbar");
+  var countdownEl = document.getElementById("countdown");
+  var statusEl = document.getElementById("status-text");
+  var openBtn = document.getElementById("open-now");
+  var titleEl = document.getElementById("title");
+  var subEl = document.getElementById("subcopy");
+  var ringEl = document.getElementById("ring");
+
+  var RING_CIRC = 251; // 2 * PI * r(40), matches stroke-dasharray in CSS
+
+  /* ---------- Open in App (installed app deep link, else Play Store) ---------- */
+  var ANDROID_PACKAGE = "com.betapix.nexgama";
+  var PLAY_STORE_URL = "https://play.google.com/store/apps/details?id=" + ANDROID_PACKAGE;
+
+  function openInApp() {
+    var isAndroid = /Android/i.test(navigator.userAgent);
+    if (!isAndroid) {
+      window.location.href = PLAY_STORE_URL;
+      return;
+    }
+    var deepPath = window.location.host + window.location.pathname + window.location.search;
+    var intentUrl =
+      "intent://" + deepPath +
+      "#Intent;scheme=https;package=" + ANDROID_PACKAGE +
+      ";S.browser_fallback_url=" + encodeURIComponent(PLAY_STORE_URL) +
+      ";end";
+    window.location.href = intentUrl;
+  }
+  document.getElementById("open-app-header").addEventListener("click", openInApp);
+
+  /* ---------- existing game-loading flow ---------- */
+  if (!slug) {
+    titleEl.textContent = "NexGama";
+    subEl.textContent = "Open a link like nexgama.vercel.app?<game-slug> to play a game.";
+    document.querySelector(".timer").style.display = "none";
+    statusEl.textContent = "";
+    openBtn.style.display = "none";
+  } else {
+    var embedUrl = "https://playgama.com/export/game/" + slug + "?clid=" + CLID;
+
+    function openGame() {
+      introEl.style.display = "none";
+      topbarEl.style.display = "none";
+      stageEl.innerHTML =
+        '<iframe src="' + embedUrl + '" title="' + slug + '" allow="fullscreen; accelerometer; camera; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; geolocation; gyroscope; microphone; xr-spatial-tracking; autoplay; encrypted-media; picture-in-picture; payment; publickey-credentials-get; publickey-credentials-create; storage-access; attribution-reporting; browsing-topics" frameborder="0" allowfullscreen></iframe>';
+      stageEl.classList.add("active");
+    }
+
+    var seconds = 5;
+    var totalSeconds = 5;
+    countdownEl.textContent = seconds;
+
+    var timer = setInterval(function () {
+      seconds -= 1;
+      countdownEl.textContent = Math.max(seconds, 0);
+      var offset = RING_CIRC * (1 - Math.max(seconds, 0) / totalSeconds);
+      ringEl.style.strokeDashoffset = offset;
+
+      if (seconds > 0) {
+        statusEl.textContent = "Opening in " + seconds + " seconds…";
+      } else {
+        clearInterval(timer);
+        statusEl.textContent = "Opening now…";
+        openGame();
+      }
+    }, 1000);
+
+    openBtn.addEventListener("click", function () {
+      clearInterval(timer);
+      openGame();
+    });
+  }
+</script>
+
+</body>
+</html>
