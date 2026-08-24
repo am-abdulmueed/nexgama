@@ -1,8 +1,8 @@
 {
   "config": {
-    "category_name": "Others",
-    "badge_text": "Online",
-    "badge_bg": "#1565C0",
+    "category_name": "trending",
+    "badge_text": "today",
+    "badge_bg": "#FF3B30",
     "badge_text_color": "#FFFFFF"
   },
   "games": [
