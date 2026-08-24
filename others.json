@@ -1,8 +1,8 @@
 {
   "config": {
-    "category_name": "trending",
-    "badge_text": "today",
-    "badge_bg": "#FF3B30",
+    "category_name": "Others",
+    "badge_text": "Online",
+    "badge_bg": "#1565C0",
     "badge_text_color": "#FFFFFF"
   },
   "games": [
@@ -40,7 +40,7 @@
       "Male",
       "Female"
     ],
-    "inGamePurchases": "Yes",
+    "inGamePurchases": "No",
     "supportedLanguages": [
       "en-US"
     ],
@@ -56,7 +56,7 @@
     "title": "Subway Surfers",
     "description": "Subway Surfers is an exhilarating endless runner game that follows the escapades of a mischievous tagger named Jake, who's constantly evading the pursuit of the grumpy Inspector and his vigilant dog. Players dash through a vibrant subway environment, weaving through oncoming trains, hurdling over obstacles, and grinding along train tracks in a thrilling chase for high scores and endless excitement.",
     "howToPlayText": "",
-    "gameURL": "https://games.playtropolis.com/Subway-surfers",
+    "gameURL": "https://games.playtropolis.com/subway-surfers",
     "playgamaGameUrl": "",
     "genres": [
       "kids",
@@ -90,7 +90,7 @@
       "Male",
       "Female"
     ],
-    "inGamePurchases": "Yes",
+    "inGamePurchases": "No",
     "supportedLanguages": [
       "en-US"
     ],
@@ -106,7 +106,7 @@
     "title": "Moto X3M",
     "description": "Moto X3M is an action motorcycle game with 22 levels of thrilling obstacles and stunts. Race through diverse tracks, each offering unique challenges and showcasing excellent physics for a realistic ride. Master the controls, perform jaw-dropping tricks, and navigate tricky terrains to complete all the levels. With each stage, the excitement grows as you push your biking skills to the limit. Dive into Moto X3M unblocked and experience the rush of extreme biking fun!",
     "howToPlayText": "",
-    "gameURL": "https://games.playtropolis.com/Moto-x3m",
+    "gameURL": "https://games.playtropolis.com/moto-x3m",
     "playgamaGameUrl": "",
     "genres": [
       "racing",
@@ -140,7 +140,7 @@
       "Male",
       "Female"
     ],
-    "inGamePurchases": "Yes",
+    "inGamePurchases": "No",
     "supportedLanguages": [
       "en-US"
     ],
@@ -148,7 +148,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Moto-x3m' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/moto-x3m' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100004",
@@ -206,7 +206,7 @@
     "title": "Stick Merge",
     "description": "In Stick Merge, your mission is to combine weapons and unleash their full potential against waves of stickman targets. Starting with basic firearms, you'll merge them to craft deadlier and more advanced guns. Use these weapons to clear the shooting range, upgrade your arsenal, and experiment with powerful boosts. The more you merge, the stronger you become. How far will your skills and strategy take you?",
     "howToPlayText": "",
-    "gameURL": "https://games.playtropolis.com/Stick-merge",
+    "gameURL": "https://games.playtropolis.com/stick-merge",
     "playgamaGameUrl": "",
     "genres": [
       "shooting",
@@ -248,7 +248,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Stick-merge' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/stick-merge' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100006",
@@ -256,7 +256,7 @@
     "title": "Blumgi Paintball",
     "description": "Blumgi Paintball is an action platformer where the goal is to cover the arena in your teamâ€™s color. Itâ€™s a battle of strategy and speed - walk over tiles, toss bombs, and shoot paint-filled shots to claim territory. The more ground you control, the closer you get to victory! Climb through the ranks by winning matches, aiming for the prestigious Diamond Rank. Each win also unlocks quirky hats and faces to customize your character. Want to team up or face off? Try the 2-player mode for added fun! Ready to show your paintball skills and dominate the field?",
     "howToPlayText": "",
-    "gameURL": "https://games.playtropolis.com/Blumgi-paintball",
+    "gameURL": "https://games.playtropolis.com/blumgi-paintball",
     "playgamaGameUrl": "",
     "genres": [
       "kids",
@@ -298,7 +298,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Blumgi-paintball' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/blumgi-paintball' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100007",
@@ -306,7 +306,7 @@
     "title": "Raft Wars 2",
     "description": "Raft Wars 2 immerses you in the adventure of two brothers determined to retrieve their hidden treasure beneath the bustling waters of a newly constructed amusement park. As you navigate through the park's vibrant attractions, you'll encounter a motley crew of adversaries, from vigilant security guards to vigilant lifeguards, all standing between you and your coveted loot. With humor-infused challenges and quirky characters, the game unfolds into a whimsical tale of mischief and treasure hunting, promising an entertaining journey through the depths of the water park.",
     "howToPlayText": "",
-    "gameURL": "https://games.playtropolis.com/Raft-wars-2",
+    "gameURL": "https://games.playtropolis.com/raft-wars-2",
     "playgamaGameUrl": "",
     "genres": [
       "kids",
@@ -347,7 +347,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Raft-wars-2' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/raft-wars-2' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100008",
@@ -355,7 +355,7 @@
     "title": "Raft Wars",
     "description": "Raft Wars offers simple yet engaging gameplay, where players control characters on a raft, aiming and shooting at enemies with an array of weapons. Its easy-to-understand mechanics make it accessible to all players, ensuring instant fun. With physics-based action, projectiles behave realistically, adding an extra layer of challenge and excitement. Earn currency to upgrade weapons and fortify your raft against increasingly formidable foes, each with unique abilities and strengths.",
     "howToPlayText": "",
-    "gameURL": "https://games.playtropolis.com/Raft-wars",
+    "gameURL": "https://games.playtropolis.com/raft-wars",
     "playgamaGameUrl": "",
     "genres": [
       "kids",
@@ -396,7 +396,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Raft-wars' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/raft-wars' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100009",
@@ -404,7 +404,7 @@
     "title": "Blumgi Slime",
     "description": "Guide your adorable slime protagonist through a series of challenging levels using on-screen buttons or touch controls. Your goal? Safely navigate to the platform at each level's end without falling or encountering obstacles. With its minimalistic graphics and intuitive controls, Blumgi Slime offers an easy-to-pick-up gaming experience.",
     "howToPlayText": "",
-    "gameURL": "https://games.playtropolis.com/Blumgi-slime",
+    "gameURL": "https://games.playtropolis.com/blumgi-slime",
     "playgamaGameUrl": "",
     "genres": [
       "kids",
@@ -451,7 +451,7 @@
     "title": "Stickman Crazy Box",
     "description": "Stickman Crazy Box is a 20 mini-games that will keep you entertained for hours! You can jump into quick games or challenge your friends in tournament mode with up to 4 players. As you progress, unlock cool skins and customize your stickman for even more excitement. With each game bringing a new challenge, youâ€™ll never run out of crazy fun!",
     "howToPlayText": "",
-    "gameURL": "https://games.playtropolis.com/Stickman-crazy-box",
+    "gameURL": "https://games.playtropolis.com/stickman-crazy-box",
     "playgamaGameUrl": "",
     "genres": [
       "kids",
@@ -494,7 +494,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Stickman-crazy-box' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/stickman-crazy-box' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100011",
@@ -550,7 +550,7 @@
     "title": "Sink It",
     "description": "In Sink It, take aim and challenge your skills by trying to sink your opponent's boat with well-timed cannon shots! Play solo or face off with a friend on desktop or mobile. Each cannonball sends waves rippling through the water, which can shift both boats, adding a layer of strategy as you anticipate your opponent's movements. Occasionally, items drop into the waterâ€”guide these toward you with the waves to activate powerful effects like freezing the sea, adding more tactical options to the match. Can you outsmart and outshoot your rivals to claim victory?",
     "howToPlayText": "â€¢ 1 Player Mode:\nâ€¢ Press the space bar (or tap on mobile) to fire.\nâ€¢ 2 Player Mode:\nâ€¢ Player 1: Press the space bar (or tap on mobile).\nâ€¢ Player 2: Press Enter (or tap on mobile).",
-    "gameURL": "https://games.playtropolis.com/Sink-it",
+    "gameURL": "https://games.playtropolis.com/sink-it",
     "playgamaGameUrl": "",
     "genres": [
       "kids",
@@ -593,7 +593,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Sink-it' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/sink-it' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100013",
@@ -647,7 +647,7 @@
     "title": "Paint Strike",
     "description": "Paint Strike is a vibrant arcade shooter where you compete to cover the most territory with your team's color! Use your paint gun to spray the arena and take control of the battlefield. Splatter as much ground as you can in your team's shade, but watch out - rival players can be shot to temporarily sideline them. Strategy and quick reflexes are key as you balance between painting the area and outmaneuvering opponents. Can you dominate the map and lead your team to victory?",
     "howToPlayText": "",
-    "gameURL": "https://games.playtropolis.com/Paint-strike",
+    "gameURL": "https://games.playtropolis.com/paint-strike",
     "playgamaGameUrl": "",
     "genres": [
       "shooting",
@@ -685,7 +685,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Paint-strike' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/paint-strike' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100015",
@@ -738,7 +738,7 @@
     "title": "Hills Of Steel",
     "description": "Hills of Steel lets you take control of a tank and battle your way across rugged terrains. Drive over hills, balance your tank, and shoot down enemies that stand in your path. Unlock a variety of tanks, each with unique abilities, and upgrade them to become more powerful. Use boosters like mines, force shields, or rocket strikes to gain an advantage in tough battles. The challenge ramps up as you face tougher enemies and steeper hills. Master the controls and see how far you can go!",
     "howToPlayText": "",
-    "gameURL": "https://games.playtropolis.com/Hills-of-steel",
+    "gameURL": "https://games.playtropolis.com/hills-of-steel",
     "playgamaGameUrl": "",
     "genres": [
       "shooting",
@@ -777,7 +777,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Hills-of-steel' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/hills-of-steel' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100017",
@@ -785,7 +785,7 @@
     "title": "Clash Of Tanks",
     "description": "In Clash of Tanks, engage in intense battles where strategy is key! Lure enemy tanks close to your turret to unleash devastating damage, as both your tanks and turret join forces to take down opponents. Choose wisely which enemy tanks to allow in - avoid long-range threats to maximize your chances of victory. Adapt your tactics, outsmart your foes, and dominate the battlefield!",
     "howToPlayText": "â€¢ Hold down the left mouse button to place a tank.",
-    "gameURL": "https://games.playtropolis.com/Clash-of-tanks",
+    "gameURL": "https://games.playtropolis.com/clash-of-tanks",
     "playgamaGameUrl": "",
     "genres": [
       "shooting",
@@ -823,7 +823,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Clash-of-tanks' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/clash-of-tanks' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100018",
@@ -876,9 +876,9 @@
     "id": "100019",
     "slug": "stick-defenders",
     "title": "Stick Defenders",
-    "description": "https://games.playtropolis.com/Bullet-bros https://img.playtropolis.com/ecebab51-b75f-43fe-8aa1-2995239ec21e/icon_160x160.png Bullet Bros is action platformer where you use a gun to shoot enemies while jumping. Youâ€™ll need to time your jumps and shots to clear levels. As you progress, each level gets tougher, turning the game into a mix of shooting and puzzle-solving. Use your gun's recoil to propel yourself and defeat enemies creatively. Unlock new outfits and guns as you go, adding more fun to the gameplay!",
+    "description": "https://games.playtropolis.com/bullet-bros https://img.playtropolis.com/ecebab51-b75f-43fe-8aa1-2995239ec21e/icon_160x160.png Bullet Bros is action platformer where you use a gun to shoot enemies while jumping. Youâ€™ll need to time your jumps and shots to clear levels. As you progress, each level gets tougher, turning the game into a mix of shooting and puzzle-solving. Use your gun's recoil to propel yourself and defeat enemies creatively. Unlock new outfits and guns as you go, adding more fun to the gameplay!",
     "howToPlayText": "â€¢ Hold the mouse or space bar to jump and rotate; release to shoot!\nâ€¢ Aim carefully to tackle each levelâ€™s challenges\nâ€¢ Shooting Games\nâ€¢ Skill Games\nâ€¢ Action Games\nâ€¢ Games for Boys\nâ€¢ Funny Games\nâ€¢ Gun Games\nâ€¢ =----\nâ€¢ In Stick Defenders, your main goal is to defend your base from waves of attackers. Merge identical stickmen to create stronger units, building up your defenses as the enemy forces grow. Keep an eye out for opportunities to deploy a powerful bonus attack, which can wipe out large clusters of enemies at once. Strategically upgrade your walls and use your enhanced stickmen to hold the line against increasingly challenging waves. Plan your merges and time your attacks carefully to keep your base safe!\nâ€¢ Use your mouse to select and drag units. Merge two identical stickmen by dropping one on top of the other to create a more powerful defender.",
-    "gameURL": "https://games.playtropolis.com/Stick-defenders",
+    "gameURL": "https://games.playtropolis.com/stick-defenders",
     "playgamaGameUrl": "",
     "genres": [
       "shooting",
@@ -915,7 +915,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Stick-defenders' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/stick-defenders' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100020",
@@ -923,7 +923,7 @@
     "title": "Fullspeed Racing",
     "description": "FullSpeed Racing is an simple arcade game that captures the essence of 80s nostalgia. Dive into a retro world where pixel-perfect graphics, neon-soaked tracks, and synthwave music transport you back to the golden age of arcade gaming. Choose from a fleet of vintage cars and race through brightly colored tracks, each designed to challenge your reflexes and racing skills. Whether you're a seasoned gamer or new to retro racing, FullSpeed Racing offers a thrilling and vibrant trip down memory lane. Press left or right keys to control the steering of the car. Hold SHIFT while steering to drift Press UP key to use turbo",
     "howToPlayText": "",
-    "gameURL": "https://games.playtropolis.com/Fullspeed-racing",
+    "gameURL": "https://games.playtropolis.com/fullspeed-racing",
     "playgamaGameUrl": "",
     "genres": [
       "racing",
@@ -962,7 +962,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Fullspeed-racing' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/fullspeed-racing' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100021",
@@ -1067,7 +1067,7 @@
     "title": "Iron Snout",
     "description": "Iron Snout pits players in control of a courageous piglet against waves of ferocious wolves in a fast-paced and quirky fighting game. Armed with punches, kicks, jumps, and dodges, players must utilize precise timing and strategic maneuvers to defeat their enemies across various locations like farms, forests, and pirate ships. With a simple two-button control scheme, players can unleash devastating combos and pick up weapons like knives and chainsaws to vanquish their foes.",
     "howToPlayText": "â€¢ Use the arrow keys for jumping and hitting wolves.",
-    "gameURL": "https://games.playtropolis.com/Iron-snout",
+    "gameURL": "https://games.playtropolis.com/iron-snout",
     "playgamaGameUrl": "",
     "genres": [
       "multiplayer",
@@ -1106,7 +1106,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Iron-snout' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/iron-snout' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100024",
@@ -1262,7 +1262,7 @@
     "title": "Boxing Physics 2",
     "description": "In Boxing Physics 2, get ready to throw wild punches and take down your opponents with unpredictable, physics-based action. You'll control your boxer with simple movements, but timing and strategy are key to knocking out your rivals. Earn rewards and unlock new characters by winning matches in various modes, including classic boxing, kickboxing, and even wacky challenges like soccer mode. The challenge is to balance your offense with defense, and keep your energy up to stay in the fight!",
     "howToPlayText": "â€¢ Press W to punch.\nâ€¢ Pro tip: Lean forward while punching for extra power!",
-    "gameURL": "https://games.playtropolis.com/Boxing-physics-2",
+    "gameURL": "https://games.playtropolis.com/boxing-physics-2",
     "playgamaGameUrl": "",
     "genres": [
       "multiplayer",
@@ -1302,7 +1302,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Boxing-physics-2' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/boxing-physics-2' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100028",
@@ -1310,7 +1310,7 @@
     "title": "Rooftop Snipers 2",
     "description": "In Rooftop Snipers 2, the challenge is to stay on the rooftop while knocking your opponent off with precise shots. Play solo against AI or with a friend in two-player mode. Customize your arena and unlock new characters as you progress through intense battles. Each match is filled with chaotic surprises like flying objects, so youâ€™ll need quick reflexes and sharp aim to win. Can you outlast your opponent and claim the rooftop?",
     "howToPlayText": "â€¢ Press W to jump.\nâ€¢ Hold E to aim, release to shoot.",
-    "gameURL": "https://games.playtropolis.com/Rooftop-snipers-2",
+    "gameURL": "https://games.playtropolis.com/rooftop-snipers-2",
     "playgamaGameUrl": "",
     "genres": [
       "shooting",
@@ -1351,7 +1351,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Rooftop-snipers-2' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/rooftop-snipers-2' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100029",
@@ -1411,7 +1411,7 @@
     "title": "Stickman Climb",
     "description": "Stickman Climb is a challenging platformer where precision and patience are your best allies. Guide a determined stickman equipped with a pickaxe as he maneuvers through treacherous levels filled with sharp spikes and tricky ledges. Use the pickaxe to swing, climb, and push yourself toward the goal, balancing each move with careful timing. Each stage tests your ability to use momentum and physics to scale obstacles. Progress isnâ€™t easy, but every checkpoint helps you secure your hard-won advances. Reach the finish flag in each level and conquer the heights of Stickman Climb!",
     "howToPlayText": "â€¢ Use the pickaxe to move and climb.\nâ€¢ Control movement: Left/Right arrow keys.",
-    "gameURL": "https://games.playtropolis.com/Stickman-climb",
+    "gameURL": "https://games.playtropolis.com/stickman-climb",
     "playgamaGameUrl": "",
     "genres": [
       "skill",
@@ -1448,7 +1448,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Stickman-climb' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/stickman-climb' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100031",
@@ -1456,7 +1456,7 @@
     "title": "Red Ball 4",
     "description": "Roll into action with Red Ball 4! Guide the brave Red Ball through a world packed with puzzles, tricky traps, and cube monsters lurking in every corner. Each of the 70+ levels brings a new challenge, from dodging spikes to solving clever obstacles, and collecting stars along the way. Master timing and precision to avoid dangers and earn shiny medals by gathering all stars. Every jump and roll countsâ€”can you help Red Ball conquer each level and save the day?",
     "howToPlayText": "â€¢ Move: Left/Right Arrow keys or A/D\nâ€¢ Jump: Up Arrow key, W, Space, or Enter",
-    "gameURL": "https://games.playtropolis.com/Red-ball-4",
+    "gameURL": "https://games.playtropolis.com/red-ball-4",
     "playgamaGameUrl": "",
     "genres": [
       "puzzle",
@@ -1499,7 +1499,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Red-ball-4' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/red-ball-4' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100032",
@@ -1507,7 +1507,7 @@
     "title": "Rabbit Samurai 2",
     "description": "Join Samurai Rabbit on an epic rescue mission in Rabbit Samurai 2! Use your grappling hook to swing through challenging levels, collecting carrots and freeing your friends. The game starts easy, but the difficulty ramps up as you progress, keeping you on your toes. Can you master the fast-paced action and save all your friends while nabbing every carrot? Play now and put your skills to the test!",
     "howToPlayText": "â€¢ Left mouse button click or long-press finger to use grappling hook.",
-    "gameURL": "https://games.playtropolis.com/Rabbit-samurai-2",
+    "gameURL": "https://games.playtropolis.com/rabbit-samurai-2",
     "playgamaGameUrl": "",
     "genres": [
       "kids",
@@ -1548,7 +1548,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Rabbit-samurai-2' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/rabbit-samurai-2' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100033",
@@ -1556,7 +1556,7 @@
     "title": "Valiant Knight",
     "description": "Valiant Knight is a 2D platformer game where quick reflexes are your best weapon. Guide the brave knight through treacherous obstacles and foes for save the princess. Click left or right to direct his path, avoiding deadly traps and enemies along the way. Need a boost? Keep tapping to speed up the knight's journey and outpace danger. It's a test of skill and timing in a fast-paced adventure!",
     "howToPlayText": "",
-    "gameURL": "https://games.playtropolis.com/Valiant-knight",
+    "gameURL": "https://games.playtropolis.com/valiant-knight",
     "playgamaGameUrl": "",
     "genres": [
       "kids",
@@ -1594,7 +1594,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Valiant-knight' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/valiant-knight' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100034",
@@ -1650,7 +1650,7 @@
     "title": "Raft Wars Multiplayer",
     "description": "Raft Wars Multiplayer builds on the fun of the original Raft Wars and its sequel Raft Wars 2, delivering an exciting player-versus-player twist. In this version, you and other players battle it out on rafts to defend treasure and outmaneuver opponents. Using your aim and strategy, fire tennis balls, rockets, or grenades to sink enemy rafts while protecting your own. Unlike the single-player versions, this game pits you against real players worldwide, adding unpredictable challenges and competitive gameplay. Upgrade your weapons, customize your raft, and conquer unique arenas inspired by earlier games. Whether you're a fan of the originals or new to the series, Raft Wars Multiplayer offers endless fun and dynamic battles.",
     "howToPlayText": "â€¢ Aim and Shoot: Click and drag the mouse to adjust power and angle, then release to fire.",
-    "gameURL": "https://games.playtropolis.com/Raft-wars-multiplayer",
+    "gameURL": "https://games.playtropolis.com/raft-wars-multiplayer",
     "playgamaGameUrl": "",
     "genres": [
       "kids",
@@ -1690,7 +1690,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Raft-wars-multiplayer' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/raft-wars-multiplayer' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100036",
@@ -1698,7 +1698,7 @@
     "title": "Ovo Classic",
     "description": "OvO Classic is a thrilling platformer where speed and precision are key. Play as a nimble stickman and race through a series of challenging levels to reach the finish flag as fast as you can. Each level tests your reflexes and creativity as you run, jump, wall-jump, and slide past obstacles. Master advanced moves like chaining slides into jumps or combining ground pounces for extra height to shave seconds off your time. With increasing difficulty and room for skillful shortcuts, can you become the ultimate speedrunner in OvO Classic?",
     "howToPlayText": "â€¢ Move: Left and right arrow keys.\nâ€¢ Jump: Space bar.\nâ€¢ Slide: Down arrow key.\nâ€¢ Combine moves: Experiment with actions to find faster routes!",
-    "gameURL": "https://games.playtropolis.com/Ovo-classic",
+    "gameURL": "https://games.playtropolis.com/ovo-classic",
     "playgamaGameUrl": "",
     "genres": [
       "action",
@@ -1735,7 +1735,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Ovo-classic' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/ovo-classic' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100037",
@@ -1743,7 +1743,7 @@
     "title": "Shoot N Shout Turbo",
     "description": "In Shoot'n'Shout Turbo, youâ€™re humanityâ€™s last hope against alien invaders! Grab your gun and bazooka, and take aim to blast away strange monsters in each level. But beware: ammo is limited, so every shot counts! Use clever angles and physics to hit all targets and clear each stage. Are you ready to save the world, one perfect shot at a time?",
     "howToPlayText": "",
-    "gameURL": "https://games.playtropolis.com/Shoot-n-shout-turbo",
+    "gameURL": "https://games.playtropolis.com/shoot-n-shout-turbo",
     "playgamaGameUrl": "",
     "genres": [
       "shooting",
@@ -1782,7 +1782,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Shoot-n-shout-turbo' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/shoot-n-shout-turbo' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100038",
@@ -1790,7 +1790,7 @@
     "title": "Hide And Smash",
     "description": "In Hide and Smash, you're either hiding or smashing! If you're on the blue hide team, your job is to disguise yourself as an everyday object, avoid detection, and collect keys scattered around. If you're on the red smash team, your goal is to find and smash the hidden players before they grab all the keys. Each round is a race between stealth and discovery. Can you outsmart your opponents?",
     "howToPlayText": "â€¢ Move: WASD or arrow keys.\nâ€¢ Left click: Aim and smash if you're on the smash team!\nâ€¢ .IO Games",
-    "gameURL": "https://games.playtropolis.com/Hide-and-smash",
+    "gameURL": "https://games.playtropolis.com/hide-and-smash",
     "playgamaGameUrl": "",
     "genres": [
       "skill",
@@ -1827,7 +1827,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Hide-and-smash' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/hide-and-smash' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100039",
@@ -1971,7 +1971,7 @@
     "title": "Skiing Fred",
     "description": "Take control of Fred as he tears down the slopes, dodging crazy obstacles and pulling off jaw-dropping stunts! Use your skills to steer Fred through treacherous terrain, collecting coins along the way to unlock epic upgrades and gear. Jump off ramps, avoid obstacles, and master the art of skiing to conquer each thrilling level. With its fast-paced gameplay and hilarious antics, Skiing Fred is sure to keep you entertained for hours. So grab your skis and get ready for a ski adventure like no other!",
     "howToPlayText": "â€¢ Space - Jump/turbo speed\nâ€¢ Arrow keys - Move",
-    "gameURL": "https://games.playtropolis.com/Skiing-fred",
+    "gameURL": "https://games.playtropolis.com/skiing-fred",
     "playgamaGameUrl": "",
     "genres": [
       "action",
@@ -2010,7 +2010,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Skiing-fred' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/skiing-fred' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100043",
@@ -2018,7 +2018,7 @@
     "title": "Blumgi Rocket",
     "description": "Experience high-speed excitement in Blumgi Rocket, a thrilling platform game where you control a rocket-powered car through vibrant, colorful levels. Press and hold the button to unleash your car's super speed and feel the adrenaline rush as you zoom through the tracks. Perform gravity-defying stunts and tricks mid-air to complete levels even faster. Customize your gameplay by visiting the in-game store to buy a variety of unique vehicle skins. Enjoy the fun anytime with Blumgi Rocket Unblocked, perfect for testing your skills and mastering each level with style! How do you play Blumgi Rocket? Drive - W/S or Up/Down arrow keys Rocket - Space bar or D",
     "howToPlayText": "",
-    "gameURL": "https://games.playtropolis.com/Blumgi-rocket",
+    "gameURL": "https://games.playtropolis.com/blumgi-rocket",
     "playgamaGameUrl": "",
     "genres": [
       "kids",
@@ -2060,7 +2060,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Blumgi-rocket' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/blumgi-rocket' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100044",
@@ -2068,7 +2068,7 @@
     "title": "Ping Pong Go",
     "description": "Ping Pong Go brings the classic table tennis experience to your screen with simple yet addictive gameplay. Swipe to serve and return the ball, aiming to outplay your opponent with every shot. Focus on timing and precision to keep the rally going and score points. Play multiple game modes such as Arcade, Classic, and Bug Hunt, each offering new challenges as you advance. Win matches to earn gems and unlock new cool paddles to enhance your play. Whether you're tackling levels or aiming for a top score, Ping Pong Go focuses on sharp reflexes and fun.",
     "howToPlayText": "â€¢ Swipe to serve and hit the ball!",
-    "gameURL": "https://games.playtropolis.com/Ping-pong-go",
+    "gameURL": "https://games.playtropolis.com/ping-pong-go",
     "playgamaGameUrl": "",
     "genres": [
       "kids",
@@ -2107,7 +2107,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Ping-pong-go' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/ping-pong-go' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100045",
@@ -2330,7 +2330,7 @@
     "title": "Blast Mania",
     "description": "Blast Mania invites players into a captivating block puzzle experience where matching reigns supreme. Align blocks of the same color to eliminate them and clear the board, aiming to create lines or rows for maximum impact. Matching more than three blocks unleashes special blocks with unique abilities, offering dynamic strategies for clearing larger portions of the board. With a plethora of levels ranging in difficulty, players must employ cunning tactics to conquer objectives and advance through the game. Keep an eye out for boosters or power-ups in certain versions, providing invaluable assistance in tackling challenging situations and mastering the art of block-busting brilliance. Use your mouse to play",
     "howToPlayText": "",
-    "gameURL": "https://games.playtropolis.com/Blast-mania",
+    "gameURL": "https://games.playtropolis.com/blast-mania",
     "playgamaGameUrl": "",
     "genres": [
       "puzzle",
@@ -2371,7 +2371,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Blast-mania' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/blast-mania' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100053",
@@ -2471,7 +2471,7 @@
     "title": "Fish Eat Fish",
     "description": "Fish Eat Fish is a simple, relaxing game where you control a small fish and work your way up the food chain. Eat smaller fish to grow, gradually turning your tiny fish into a giant of the sea. Be careful, thoughâ€”larger fish can gobble you up! As you grow, youâ€™ll earn gems that you can use to restore the reef, bringing life back to the ocean after a shark attack. Play alone or team up with friends for a calm but engaging adventure. Focus on growing your fish, avoiding dangers, and rebuilding the underwater world.",
     "howToPlayText": "â€¢ Player 1: Move with WASD\nâ€¢ Player 2: Move with Arrow Keys\nâ€¢ Player 3: Move with UHJK or mouse",
-    "gameURL": "https://games.playtropolis.com/Fish-eat-fish",
+    "gameURL": "https://games.playtropolis.com/fish-eat-fish",
     "playgamaGameUrl": "",
     "genres": [
       "kids",
@@ -2506,7 +2506,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Fish-eat-fish' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/fish-eat-fish' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100056",
@@ -2603,7 +2603,7 @@
     "title": "Crazy Bikes",
     "description": "Crazy Bikes lets you hit the virtual streets of Trial Park, a sprawling playground for motorbike enthusiasts! Choose from 7 unique bikes and take on thrilling challenges. Race against the clock to set your best times, pull off daring stunts on towering ramps, or explore hidden corners to collect stars and wrenches. Want more fun? Play with a friend in split-screen mode to see who rules the park. Whether you're chasing speed, tricks, or treasures, Crazy Bikes offers endless excitement!",
     "howToPlayText": "â€¢ Player 1: Steer with WASD, brake with Space.\nâ€¢ Player 2: Steer with Arrow keys, brake with Space.\nâ€¢ Pause: Press ESC.\nâ€¢ Reset position: Press R.",
-    "gameURL": "https://games.playtropolis.com/Crazy-bikes",
+    "gameURL": "https://games.playtropolis.com/crazy-bikes",
     "playgamaGameUrl": "",
     "genres": [
       "kids",
@@ -2650,7 +2650,7 @@
       "horizontal": true,
       "vertical": false
     },
-    "embed": "<iframe src='https://games.playtropolis.com/Crazy-bikes' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
+    "embed": "<iframe src='https://games.playtropolis.com/crazy-bikes' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   },
   {
     "id": "100059",
@@ -2749,5 +2749,5 @@
     },
     "embed": "<iframe src='https://scooterxtreme.h5games.usercontent.goog/v/c842db43-7823-45bc-b575-acbd9bda5de4/?origin=https%3A%2F%2Fgamesnacks.com&gameCenterId=gamesnacks' allow='fullscreen; accelerometer; clipboard-read; clipboard-write; screen-wake-lock; speaker-selection; web-share; gyroscope; microphone; autoplay; encrypted-media; picture-in-picture; storage-access' frameborder='0' width='960' height='540'></iframe>"
   }
-  ]
+ ]
 }
